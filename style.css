@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+  margin-bottom: 50px; 
+}
+.krug {
+  position: fixed;
+  border-radius: 50px;
+  display: fixed;
+  height: 60px;
+  width: 60px;
+  background: url('../images/discord.png') black no-repeat center;
+  background-size: cover;
+  left: 20px;
+  bottom: 20px;
+  z-index: 2;
+}
+.krug:hover {
+  transition: background-color 0.3s, transform 0.3s;
+  transform: scale(1.1);
+}
+.Steam {
+  background: url('../images/Steamlogo.png') no-repeat center /40px;
+  padding: 20px;
+  margin: 30px;
+}
+.Steam:hover {
+  transition: background-color 0.3s, transform 0.3s;
+  transform: scale(1.2);
+}
+.TikTok {
+  background: url('../images/tiktok.png') no-repeat center /80px;
+  padding: 20px;
+  margin: 30px;
+}
+.TikTok:hover {
+  transition: background-color 0.3s, transform 0.3s;
+  transform: scale(1.2);
+}
+.YouTube {
+  background: url('../images/youtube.png') no-repeat center /40px;
+  padding: 20px;
+  margin: 30px;
+}
+.YouTube:hover {
+  transition: background-color 0.3s, transform 0.3s;
+  transform: scale(1.2);
+}
+.Instagram {
+  background: url('../images/Instagram.png') no-repeat center /40px;
+  padding: 20px;
+  margin: 30px;
+}
+.Instagram:hover {
+  transition: background-color 0.3s, transform 0.3s;
+  transform: scale(1.2);
+}
+header, footer {
+  height: 70px;
+  width: 100%;
+  border-bottom: 5px solid silver;
+  background: #333;
+  color: #fff;
+  line-height: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  float: left;
+}
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.nav-menu li{
+  margin-right: 100px;
+ position: relative;
+ top: -70px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: cursive;
+  font-size: 20px;
+}
+.nav-menu a:hover{
+  text-decoration: none;
+  color: #9c42f5;
+  font-family: cursive;
+  font-size: 20px;
+}
+main {
+  width: 50%;
+  float: left;
+  background: #fff;
+  border-radius: 30px;
+  border: solid silver;
+  padding: 20px 2.5%;
+  margin-left: 12.5%;
+}
+aside {
+  height: 90%;
+  float: left;
+  background: #fff;
+  padding: 20px 2.5%;
+  margin-left: 21.5%;
+  position: absolute;
+  border-radius: 30px;
+  border: solid silver;
+  margin-top: 3%;
+  right: 50px;
+  display: grid;
+}
+.aside2{
+  height: 160%;
+  float: left;
+  background: #fff;
+  padding: 20px 2.5%;
+  margin-left: 21.5%;
+  position: absolute;
+  border-radius: 30px;
+  border: solid silver;
+  margin-top: 3.5%;
+  right: 1750px;
+  display: grid;
+  background: url('../images/gradient.jpg') black no-repeat center;
+  background-size: cover;
+}
+.aside3 {
+  height: 5%;
+  width: 14%;
+  float: left;
+  background: #fff;
+  padding: 20px 2.5%;
+  margin-left: 21.5%;
+  background: url('../images/gradient2.jpg');
+  background-size: cover;
+  position: absolute;
+  border-radius: 30px;
+  border: solid silver;
+  margin-top: 3%;
+  right: 40px;
+  bottom: -175px;
+  display: grid;
+  z-index: 1;
+}
+.aside4 {
+  height: 90%;
+  float: left;
+  background: #fff;
+  padding: 20px 2.5%;
+  margin-left: 21.5%;
+  background: url('../images/gradient3.jpg');
+  background-size: cover;
+  position: absolute;
+  border-radius: 30px;
+  border: solid silver;
+  margin-top: 3%;
+  right: 80px;
+  display: grid;
+  right: 300px;
+}
+section {
+  width: 50%;
+  float: left;
+  border-radius: 30px;
+  background-color: #fff;
+  border: solid silver;
+  padding: 50px 2.5%;
+  margin-left: 12.5%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ccc;
+}
+.section2 {
+  width: 15%;
+  border-radius: 30px;
+  background-color: #fff;
+  border: solid silver;
+  margin-left: 25%;
+  margin-top: 2%;
+  border-bottom: 2px solid #ccc;
+  text-align: left;
+  position: relative;
+  float: right;
+  right: 100px;
+  top: -530px;
+}
+.section2 form{
+  text-align: left;
+  font-family: cursive;
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section2 input {
+  color: #9c42f5;
+  border-radius: 10px;
+}
+.foto {
+  width: 600px;
+  height: 400px;
+  border-radius: 30px;
+  background: url('../images/keks.jpg') red;
+  background-size: cover;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 15px;
+}
+
+tr {
+  border-bottom: 2px solid #9c42f5;
+}
+.recipe-table {
+  font-family: cursive;
+  font-size: 20px;
+  margin: 40px;
+  margin-top: 40px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+h3 {
+  text-align: center;
+  border-bottom: solid #9c42f5;
+  font-family: cursive;
+}
+#html {
+  font-family: cursive;
+  color: #de8d23;
+}
+#CSS {
+  font-family: cursive;
+  color: #23b5de;
+}
+.chill {
+  font-family: cursive;
+  font-size: 20px;
+}
+.chill li::marker {
+  color: #9c42f5;
+}
+p {
+  padding: 20px;
+  font-family: cursive;
+  font-size: 17px;
+}
+.kvadrat {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background: url('../images/logo.png') #333 no-repeat center;
+  background-size: cover;
+  left: 20px;
+  top: 7px;
+}
+.address{
+  text-align: right;
+}
+.text-footer {
+  text-align: left;
+  font-family: cursive;
+
+}
+.scroll-to-top {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  background-color: #9c42f5;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+  display: flex;
+  bottom: -125px;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+
+}
+.scroll-to-top:hover {
+  background-color: #fc038c;
+  transform: scale(1.1);
+}
+.text-footer {
+margin: 5px;
+padding: 5px;
+list-style-type: none;
+list-style: none;
+}
+.text-footer ul{
+  list-style-type: none;
+  }
+footer {
+  position: static;
+  bottom: 0px;
+  border-top: 5px solid silver;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: -200px;
+  height: 320px;
+  line-height: 50px;
+}
